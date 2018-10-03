@@ -10,13 +10,17 @@ body {
 h1, h2 {
   color: #3f1622;
   font-size: 1.5rem;
-  font-family: "PT Sans", bold;
+  font-family: "PT Sans";
+  font-weight: bold;
 }
 
 nav a {
   color: #8f2440;
   font-size: 1.125rem;
-  font-family: "PT Sans", bold;
+  font-family: "PT Sans";
+  font-weight: bold;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 figcaption {
@@ -24,6 +28,18 @@ figcaption {
   font-family: "PT Serif";
   font-style: italic;
   text-align: center;
+}
+
+figure p:first-child {
+  font-size: 1.125rem;
+  font-family: "PT Serif";
+  font-weight: bold;
+}
+
+p:not(.P55D) {
+  font-size: 0.8rem;
+  font-family: "PT Serif";
+  font-style: normal;
 }
 
 [href^="http://"] {
