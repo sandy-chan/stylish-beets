@@ -1,0 +1,19 @@
+html {
+  background-color: #c9b5ab;
+}
+
+body {
+  color: #222;
+}
+
+h1, h2 {
+  color: #3f1622;
+}
+
+nav > li {
+  color: #8f2440;
+}
+
+[href^="http"] {
+  color: #8f2440;
+}
