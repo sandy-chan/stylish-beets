@@ -3,6 +3,10 @@ html {
   line-height: 1.5;
 }
 
+img {
+  width: 100%;
+}
+
 body {
   color: #222;
 }
@@ -24,10 +28,16 @@ nav a {
 }
 
 figcaption {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-family: "PT Serif";
   font-style: italic;
   text-align: center;
+}
+
+p {
+  font-size: .8rem;
+  font-family: "PT Serif";
+  font-weight: normal;
 }
 
 figure p:first-child {
@@ -36,12 +46,6 @@ figure p:first-child {
   font-weight: bold;
 }
 
-p:not(.P55D) {
-  font-size: 0.8rem;
-  font-family: "PT Serif";
-  font-style: normal;
-}
-
-[href^="http://"] {
+a:hover {
   color: #8f2440;
 }
