@@ -1,5 +1,6 @@
 html {
   background-color: #c9b5ab;
+  line-height: 1.5;
 }
 
 body {
@@ -8,12 +9,23 @@ body {
 
 h1, h2 {
   color: #3f1622;
+  font-size: 1.5rem;
+  font-family: "PT Sans", bold;
 }
 
-nav > li {
+nav a {
   color: #8f2440;
+  font-size: 1.5rem;
+  font-family: "PT Sans", bold;
 }
 
-[href^="http"] {
+figcaption {
+  font-size: 1.125rem;
+  font-family: "PT Serif";
+  font-style: italic;
+  text-align: center;
+}
+
+[href^="http://"] {
   color: #8f2440;
 }
