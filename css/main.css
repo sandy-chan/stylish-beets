@@ -18,13 +18,28 @@ h1, h2 {
   font-weight: bold;
 }
 
-nav a:hover {
-  color: #8f2440;
+nav {
   font-size: 1.125rem;
+}
+
+ol, li {
+  list-style-type: lower-greek;
+}
+
+.logo, .main-nav, .nav-1, .nav-2, .nav-3 {
   font-family: "PT Sans", bold;
   font-weight: bold;
   list-style-type: none;
+}
+
+a {
+  color: #8f2440;
   text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 figcaption {
@@ -35,12 +50,11 @@ figcaption {
 }
 
 p {
-  font-size: .8rem;
   font-family: "PT Serif";
   font-weight: normal;
 }
 
-figure p:first-child {
+.days {
   font-size: 1.125rem;
   font-family: "PT Serif", bold;
   font-weight: bold;
@@ -66,30 +80,28 @@ h2 > ol {
 }
 
 h2 p {
-  font-size: .8rem;
-  font-family: "PT Serif", italic;
-  font-style: italic;
+  font-family: "PT Serif";
+  font-weight: normal;
 }
 
 dt {
-  font-size: .8rem;
   font-family: "PT Serif", bold;
   font-weight: bold;
 }
 
 dd {
-  font-size: .8rem;
   font-family: "PT Serif";
   font-weight: normal;
 }
 
 aside li {
+  font-size: .8rem;
   font-family: "PT Serif";
   font-weight: normal;
   list-style-type: circle;
 }
 
-a:hover {
+[href^="http"] {
   color: #8f2440;
   text-decoration: none;
 }
